@@ -51,10 +51,10 @@ Sub StockAnalysis()
       Total_Stock_Volume = Total_Stock_Volume + Cells(i, 7).Value
 
       ' Print Ticker in Summary Table
-      ws.Range("I" & Summary_Table_Row).Value = Ticker
+      ws.Range("i" & Summary_Table_Row).Value = Ticker
 
       ' Print Total_Stock_Volume to the Summary Table
-      ws.Range("J" & Summary_Table_Row).Value = Total_Stock_Volume
+      ws.Range("j" & Summary_Table_Row).Value = Total_Stock_Volume
 
       ' Add 1 to Summary Table Row
       Summary_Table_Row = Summary_Table_Row + 1
